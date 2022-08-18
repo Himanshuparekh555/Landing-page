@@ -1,0 +1,49 @@
+// ==========================================================================
+// Global Config
+// ==========================================================================
+
+// Font Family
+$primary-font: 'Open Sans', sans-serif;
+$primary-font-bold: 'Open Sans', sans-serif;
+$extra-font-bold: 'GillSansUltraBold', sans-serif;
+$primary-font-light: "proximanovalight", sans-serif;
+$heading-font: "gothic-bold", sans-serif;
+$roman-font: "gothic-roman", sans-serif;
+
+// Font Size
+$primary-font-size: 13px;
+$base-font-size: 14px;
+$medium-font-size: 22px;
+$large-font-size: 32px;
+
+// Font Weights
+$font-weight--heading  : 500;
+
+// Text
+$placeholder-color : #ccc;
+$placeholder-color--focus: #ccc;
+
+// Store path
+$img-path : "../images/";
+$font-path : "../fonts/";
+
+// Site Color Scheme
+$pink-color : #f13453;
+$blue-color : #dde8ea;
+$light-blue-color: #e5f1f3;
+$dark-black-color: #000000;
+$black-color : #2c2c2c;
+$white-color : #ffffff;
+$gray: #bebebe;
+$light-gray: #e5e5e5;
+$drak-gray: #aaa4a4;
+@mixin media-mobile {
+    @media screen and (max-width : 980px) {
+        @content;
+    }
+}
+@mixin media-desktop {
+    @media screen and (min-width : 981px) {
+        @content;
+    }	
+}

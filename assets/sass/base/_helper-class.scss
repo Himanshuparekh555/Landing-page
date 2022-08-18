@@ -1,0 +1,36 @@
+/*----------------------------------------------*/
+/*  Helper Class
+/*----------------------------------------------*/
+.extra-small-gutter > [class*='col-'] {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.extra-small-gutter.row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.small-gutter > [class*='col-'] {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.small-gutter.row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.no-gutter.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.img-full {
+    width: 100%;
+}

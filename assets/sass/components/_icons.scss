@@ -1,0 +1,51 @@
+.sprite {
+    background-image: url("../images/sprite.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+.plus-icon{
+    background-position: 0 0;
+    background-size: 125px;
+    width: 14px;
+    height: 14px;
+}
+.quote-icon{
+    background-position: -42px 0;
+    width: 75px;
+    height: 58px;
+}
+.fb-icon{
+    background-position: 0 -34px;
+    width: 10px;
+    height: 16px;
+    background-size: 150px;
+}
+.gp-icon{
+    background-position: -13px -39px;
+    width: 21px;
+    height: 15px;
+    background-size: 180px;
+}
+.tw-icon{
+    background-position: -30px -34px;
+    width: 17px;
+    height: 15px;
+    background-size: 150px;
+}
+.link-icon{
+    background-position: -50px -34px;
+    width: 17px;
+    height: 16px;
+    background-size: 150px;
+}
+.prev-icon{
+    background-position: -205px 0;
+    width: 16px;
+    height: 43px;
+}
+.next-icon{
+    background-position: -223px 0;
+    width: 16px;
+    height: 43px;
+}

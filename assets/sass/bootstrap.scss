@@ -1,0 +1,16 @@
+@import "vendors/bootstrap/bootstrap.scss";
+
+/* bootstrap plugin extend */
+.container {
+    @media (min-width: 768px) {
+        max-width: 100%;
+    }
+
+    @media (min-width: 992px) {
+        max-width: 100%;
+    }
+
+    @media (min-width: 1232px) {
+        max-width: 1200px;
+    }
+}
